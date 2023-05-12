@@ -1,0 +1,61 @@
+:root {
+    --white: #f2f2f2;
+    --black: #1e1e1e;
+  }
+*{
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100svh;
+    height: 100vh;
+}
+.hero-section{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 1.5rem;
+background-color: #f2e5d9;
+}
+
+.csv{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.center-center{
+margin-left: auto;
+margin-right: auto
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.heading-3{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.load-json{
+    /* padding: 1rem 3rem; */
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    color: var(--black);
+    /* background-color: var(--black); */
+    border: 3px solid transparent;
+}
+/* 
+.load-json:hover{
+    color: var(--black);
+    background-color: var(--white);
+    border: 3px solid var(--black);
+
+} */
+
